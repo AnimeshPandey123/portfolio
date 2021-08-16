@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" href="./css/responsive.css">
+
+  <script src="./js/index.js"></script>
+
+
+</head>
+
+<body>
+  <header>
+
+    <canvas id="header-canvas"></canvas>
+
+    <div class="container">
+      <nav class="flex items-center justify-between" id="navbar">
+        <div class="left flex items-center menu">
+          <a href="#" class="menu-bar" data-enabled="1" onclick="openMenu(this)"><i class="fas fa-bars fa-2x"></i></a>
+          <a href="/" class="menu-items">Home</a>
+          <a href="#about" class="menu-items">About</a>
+          <a href="#services" class="menu-items">Services</a>
+
+          <a href="#contact" class="menu-items">Contact</a>
+          <!-- <a href="#" class="menu-items">Pages</a>
+          <a href="#" class="menu-items">Blog</a> -->
+        </div>
+        <div class="right">
+          <button class="btn btn-primary contact">Contact</button>
+        </div>
+
+      </nav>
+
+
+      <div class="hero  items-center justify-between">
+        <div class="left  justify-center">
+          <div></div>
+          <!-- <img src="./images/man.png" alt=""> -->
+        </div>
+        <div class="right  content  ">
+          <h6>Animesh Pandey</h6>
+          <h1>I'm a <span> Web Developer</span></h1>
+          <p>
+            I have developed and maintained various large and medium scale web applications for past four years.
+          </p>
+          <div>
+            <a href="/resume.pdf" target="_blank" class="btn btn-secondary">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="about" id="about">
+    <div class="container  items-center">
+      <div class="center">
+        <h1>
+          About <span>Me</span>  
+        </h1>
+        <h3>
+          Hello! I'm Animesh Pandey. 
+        </h3>
+        <p>
+          I have a strong background in web development, and I have my bachelor's degree in computer science and information technology. I am highly skilled with Git, HTML, CSS, JS, PHP, SQL, Laravel, and Vue Js. I am also always eager to learn many new skills and polish my skills whenever I got any chance.
+        </p>
+          
+          <div class="social">
+          <a href="/"><i class="fas fa-globe"></i></a>
+          <a href="/"><i class="fab fa-facebook-square"></i></a>
+          <a href="/"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <h1 class="section-heading">
+          <span>My</span>  Services
+          </h1>
+          <p>I provide well tested and documented web applications.</p>
+
+          <div class="card-wrapper">
+            <div class="card">
+              <i class="fas fa-code fa-3x"></i>
+              <h2>Web Development</h2>
+              <p>I will develop your applications from scratch or I can maintain, debug and fix your existing application as per your requirements.</p>
+            </div>
+            <div class="card">
+              <i class="fas fa-terminal fa-3x"></i>
+              <h2>System Design</h2>
+              <p>After understading your requirements, I can design your system architecture. This will include suggestions for technologies.</p>
+            </div>
+            <div class="card">
+              <i class="fas fa-database fa-3x"></i>
+              <h2>Database Design</h2>
+              <p>I will design, maintain and debug databases as per your requiremnts and projects.</p>
+            </div>
+          </div>
+      
+    </div>
+  </section>
+
+  <section class="freelancer">
+    <h1>I am avaialble for Freelancer</h1>
+    <p>I provide high standard clean website.</p>
+    <a  href="/resume.pdf" target="_blank" class="btn btn-primary">
+      Csv Download
+    </a>
+  </section>
+<!-- 
+  <section class="reviews">
+     <div class="container">
+       <h1></h1>
+     </div>
+  </section> -->
+  <!-- <section class="work">
+    <div class="container">
+      <h1 class="section-heading">
+        <span>My</span> Works
+      </h1>
+      <p>
+        I provide high standard clean website for your buisiness solution.
+      </p>
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web development</a>
+          </div>
+          <img src="./images/ph-1.png" alt="">
+        </div>
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web development</a>
+          </div>
+          <img src="./images/ph-1.png" alt="">
+        </div>
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web development</a>
+          </div>
+          <img src="./images/ph-1.png" alt="">
+        </div>
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web development</a>
+          </div>
+          <img src="./images/ph-1.png" alt="">
+        </div>
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web development</a>
+          </div>
+          <img src="./images/ph-1.png" alt="">
+        </div>
+        <div class="card">
+          <div class="overlay">
+            <span>Category</span>
+            <a href="#">Web development</a>
+          </div>
+          <img src="./images/ph-1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section class="contact" id="contact">
+      <div class="container">
+        <h1 class="section-heading">Contact <span>Us</span> </h1>
+        <p>I am currently living in Kathmandu, Nepal. You can contact me for freelancing work in:</p>
+        
+            <!-- <div class="card">
+              <i class="fas fa-phone fa-3x"></i>
+              <h2>Call Us on</h2>
+              <h6>+9123121213</h6>
+            </div> -->
+          
+        <div class="email">
+          <i class="far fa-envelope fa-3x"></i>
+          <h2>Email us on</h2>
+          <h6>ani.mesh13578@gmail.com</h6>
+        </div>
+        <!-- <form action="">
+          <div class="input-wrap">
+            <input type="text" name="name" id="name" placeholder="Your Name *">
+            <input type="text" name="email" id="email" placeholder="Your Mail *">
+        </div>
+          <div class="input-wrap-2">
+            <input type="text" name="subject" id="" placeholder="Your Subject.."> 
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message.."></textarea>
+          </div>
+          <div class="btn-wrapper">
+            <button class="btn btn-primary">
+              Send Message
+            </button>
+
+        </form> -->
+        </div>
+      </div>
+  </section>
+  
+  <footer>
+    <div class="footer-socials flex justify-center">
+      
+      <a href="/"><i class="fas fa-globe fa-2x"></i></a>
+      <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+      <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+    </div>
+    <div class="copyright">
+      Copyright 2020 @
+    </div>
+  </footer>
+
+
+  <script src="./js/canvas.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+@media only screen and (max-width: 411px) {
+
+
+
+    header .menu{
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 2px;
+    }
+
+    header .flex{
+        /* flex-direction: column; */
+    }
+
+
+    header .menu a{
+        margin-bottom: 2rem;
+    }
+
+    header .contact{
+        margin-right: 1rem;
+    }
+
+    header{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 65% 96%, 0 100%);
+    }
+    
+    section.about p{
+        text-align: left;
+    }
+
+    section.about .social{
+        margin-left: 0rem;
+    }
+
+
+    section.services .card-wrapper{
+
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    section.work .card-wrapper{
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    section.blog{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 100%, 0 100%);
+    }
+
+    section.blog .card-wrapper{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+  
